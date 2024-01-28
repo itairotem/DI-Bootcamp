@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+
+
+
+.backround {
+   background-image: url(https://b.fssta.com/uploads/application/nba/headshots/1120.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display:inline-block;
+    border: thin solid black; 
+	width:100vw; 
+	height:150px;  
+	background-color: yellow;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    font-size: 12px;
+    
+}
+.header h3 {
+    display: inline-block;
+    margin: 50px;
+   
+
+}
+.header h3:hover {
+    display:inline-block;
+    border: thin solid red;
+    font-size: 30px;
+}
+.intro {
+    display:inline-block;
+    border: thin solid black; 
+	width: 150px;
+	height:150px;  
+	background-color: purple;
+    position:relative;
+    
+    top:180px
+}
+#aboutlebron
+{
+    display:inline-block;
+    border: thick solid black; 
+    margin: 20px;
+    padding: 20px;
+	width:100vw; 
+	height:300px;  
+	background-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.aboutlebron h2 {
+    border: thick solid purple; 
+
+}
+#bestgames ul > li {
+    color: red
+}
+
